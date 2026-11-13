@@ -217,3 +217,18 @@ dialog.sheet .wrap{position:relative}
   .fgrid{grid-template-columns:1fr}
   .art-cta{padding:30px 22px}
 }
+/* column hub */
+#columns .more{margin-top:28px;text-align:center}
+.hub h1{margin-bottom:12px}
+.hub-toc{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 40px}
+.hub-toc a{font-size:14px;color:var(--t2);text-decoration:none;padding:7px 14px;border:1px solid var(--line-2);border-radius:999px}
+.hub-toc a:hover{color:var(--t);border-color:var(--gold)}
+.hub-sec{margin:0 0 44px;scroll-margin-top:90px}
+.hub-sec h2{display:flex;align-items:center;gap:10px;margin:0 0 14px}
+.hub-sec h2 i{width:10px;height:10px;border-radius:50%;background:var(--c,var(--gold))}
+.hub-sec h2 small{font-size:14px;color:var(--dim);font-weight:400}
+.hub-list{display:grid;gap:10px}
+.hub-item{display:block;text-decoration:none;background:var(--panel);border:1px solid var(--line);border-radius:var(--r-sm);padding:18px 20px;transition:border-color .15s}
+.hub-item:hover{border-color:var(--c,var(--gold))}
+.hub-item b{display:block;color:var(--t);font-weight:500;font-size:17px;line-height:1.45}
+.hub-item span{display:block;color:var(--dim);font-size:14.5px;margin-top:6px;line-height:1.5}
