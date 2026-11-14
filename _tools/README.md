@@ -16,5 +16,6 @@
 - 1차 성범죄 15개 완료(2026-11-14): deepfake, filming-threat, csam-possession, online-grooming, workplace-power-assault, harassment-vs-assault, public-indecency, restroom-intrusion, prostitution, sex-offender-registry, employment-restriction, public-servant-sex-crime, sex-crime-settlement, sex-crime-first-offense, sex-crime-victim (원고: _tools/src/s1_*.txt)
 - 이혼·가사 22개 완료(2026-11-14, plan_100.md 1차): 원고 _tools/src/f01~f22.txt. plan_100.md의 [x] 표시가 진행 상황 기준
 - 음주·교통 20개 완료(2026-11-14, plan_100.md 2차): 원고 _tools/src/t01~t20.txt
-- 다음: plan_100.md 3차 성범죄(중복 8개 제외 14개) (이전 메모의 2차 형사 일반 계획은 plan_100.md로 대체) → 음주·교통 10 → 민사·부동산 15 → 이혼·상속 12 → 노동·행정 13 → 학교폭력 5 → 이슈 5
+- 성범죄 14개 완료(2026-11-14, plan_100.md 3차, 나머지 8개는 1차 기존 글로 대체): 원고 _tools/src/s3_01~s3_14.txt. 사이트 칼럼 총 100개
+- 다음: plan_100.md 4차 보이스피싱·금융 10개 → 이후 plan_100.md 순서대로
 - make.py는 템플릿의 `<body` 태그(속성 포함)를 찾도록 수정됨

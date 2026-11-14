@@ -50,28 +50,28 @@
 [x] 면허정지 벌점 계산 (면허정지벌점 3660) → posts/demerit-points.html
 
 ## 3차 성범죄 — 22개
-[ ] 성추행 기준과 처벌 (성추행 4170, 성추행처벌 3110, 성추행기준 2380)
+[x] 성추행 기준과 처벌 (성추행 4170, 성추행처벌 3110, 성추행기준 2380) → posts/indecency-criteria.html
 [x] 공연음란죄 (공연음란죄 6070) → 기존 posts/public-indecency.html (2026-11-14 작성, 제목·키워드 보강만 검토)
 [x] 성매매 처벌·기소유예·자수 (성매매 4750, 성매매처벌 2060, 성매매기소유예 1280) → 기존 posts/prostitution.html (2026-11-14 작성, 제목·키워드 보강만 검토)
-[ ] 성매매 공소시효 (성매매공소시효 1560)
+[x] 성매매 공소시효 (성매매공소시효 1560) → posts/prostitution-limitation.html
 [x] 성희롱과 성추행의 차이 (성희롱 2700) → 기존 posts/harassment-vs-assault.html (2026-11-14 작성, 제목·키워드 보강만 검토)
 [x] 딥페이크 처벌 (딥페이크처벌 2580) → 기존 posts/deepfake.html (2026-11-14 작성, 제목·키워드 보강만 검토)
-[ ] 강제추행 합의금은 무엇으로 정해지나 (강제추행합의금 1670, 성추행합의금 1800)
-[ ] 준강제추행 (준강제추행 1440)
-[ ] 강간죄 형량 (강간죄 1920, 성폭행형량 1250)
+[x] 강제추행 합의금은 무엇으로 정해지나 (강제추행합의금 1670, 성추행합의금 1800) → posts/indecent-assault-settlement.html
+[x] 준강제추행 (준강제추행 1440) → posts/quasi-indecent-assault.html
+[x] 강간죄 형량 (강간죄 1920, 성폭행형량 1250) → posts/rape-sentencing.html
 [x] 그루밍 범죄 (그루밍범죄 1840) → 기존 posts/online-grooming.html (2026-11-14 작성, 제목·키워드 보강만 검토)
-[ ] 아청법 나이 기준 (아청법나이 1480, 아청법 3120)
-[ ] 군인 성범죄(군인등강제추행) (군인성범죄 1790, 군인등강제추행 1720)
-[ ] 성범죄 공소시효 (성범죄공소시효 1230)
-[ ] 성범죄 무고 (성범죄무고 1130)
+[x] 아청법 나이 기준 (아청법나이 1480, 아청법 3120) → posts/minor-age-standard.html
+[x] 군인 성범죄(군인등강제추행) (군인성범죄 1790, 군인등강제추행 1720) → posts/military-sex-crime.html
+[x] 성범죄 공소시효 (성범죄공소시효 1230) → posts/sex-crime-limitation.html
+[x] 성범죄 무고 (성범죄무고 1130) → posts/sex-crime-false-report.html
 [x] 성범죄 기소유예 (성범죄기소유예 1060) → 기존 posts/sex-crime-first-offense.html (2026-11-14 작성, 제목·키워드 보강만 검토)
-[ ] 음란물 유포죄 (음란물유포죄 1140)
-[ ] 통매음 합의 (통매음합의금 1420)
-[ ] 강제추행치상 (강제추행치상 1250)
+[x] 음란물 유포죄 (음란물유포죄 1140) → posts/obscene-distribution.html
+[x] 통매음 합의 (통매음합의금 1420) → posts/tongmaeum-settlement.html
+[x] 강제추행치상 (강제추행치상 1250) → posts/indecent-assault-injury.html
 [x] 성범죄 피해자 대응 (성범죄피해자 1490, 성폭력피해자변호사 1050) → 기존 posts/sex-crime-victim.html (2026-11-14 작성, 제목·키워드 보강만 검토)
 [x] 성범죄경력조회와 신상정보 등록의 차이 (성범죄경력조회서 20620) → 기존 posts/sex-offender-registry.html (2026-11-14 작성, 제목·키워드 보강만 검토)
-[ ] 미성년자의제강간 (미성년자의제강간죄 1230)
-[ ] 디지털성범죄 유형 (디지털성범죄 1830)
+[x] 미성년자의제강간 (미성년자의제강간죄 1230) → posts/statutory-rape.html
+[x] 디지털성범죄 유형 (디지털성범죄 1830) → posts/digital-sex-crime-types.html
 
 ## 4차 보이스피싱·금융 — 10개
 [ ] 보이스피싱 신고와 계좌 지급정지 (보이스피싱신고 8230, 계좌지급정지 4820)

@@ -216,6 +216,118 @@
    "date": "2026-11-14"
   },
   {
+   "slug": "indecency-criteria",
+   "sec": "sex",
+   "title": "어디까지가 성추행인가요, 추행의 기준과 처벌",
+   "sum": "추행 판단 기준, 2023년 전원합의체, 상황별 죄명과 법정형.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "prostitution-limitation",
+   "sec": "sex",
+   "title": "성매매 공소시효, 몇 년 전 일도 처벌되나요",
+   "sum": "성매수 5년, 미성년자 상대 10년과 특례, 연락받았을 때.",
+   "min": 3,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "indecent-assault-settlement",
+   "sec": "sex",
+   "title": "강제추행 합의금은 무엇으로 정해지나요",
+   "sum": "합의의 효과, 금액을 좌우하는 요소, 합의서, 공탁.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "quasi-indecent-assault",
+   "sec": "sex",
+   "title": "준강제추행, 술에 취한 상대와의 접촉이 문제될 때",
+   "sum": "심신상실·항거불능, 블랙아웃과 패싱아웃, 불능미수.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "rape-sentencing",
+   "sec": "sex",
+   "title": "강간죄 형량, 어떤 경우에 얼마나 무거워지나요",
+   "sum": "유형별 법정형, 양형기준, 집행유예 가능성.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "minor-age-standard",
+   "sec": "sex",
+   "title": "아청법 나이 기준, 미성년자는 몇 살까지인가요",
+   "sum": "19세 미만의 의미, 13·16·19세 기준, 나이를 몰랐다는 주장.",
+   "min": 3,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "military-sex-crime",
+   "sec": "sex",
+   "title": "군인 성범죄, 군인등강제추행과 민간 법원 재판",
+   "sum": "군형법 법정형, 벌금형 없는 강제추행, 2022년 관할 이관.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "sex-crime-limitation",
+   "sec": "sex",
+   "title": "성범죄 공소시효, 죄명별 기간과 특례",
+   "sum": "죄명별 공소시효, 미성년자 정지·배제, DNA 연장.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "sex-crime-false-report",
+   "sec": "sex",
+   "title": "성범죄 무고, 무혐의가 나오면 무고죄가 되나요",
+   "sum": "무고죄 요건, 무혐의와 무고의 차이, 수사 순서.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "obscene-distribution",
+   "sec": "sex",
+   "title": "음란물 유포죄, 웹하드·토렌트·단톡방 공유도 처벌되나요",
+   "sum": "1년 이하 징역, 음란 기준, 토렌트, 영상별 적용 죄.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "tongmaeum-settlement",
+   "sec": "sex",
+   "title": "통매음 합의, 언제 어떻게 하는 것이 좋을까요",
+   "sum": "합의의 효과, 금액 요소, 재연락 금지, 합의서.",
+   "min": 3,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "indecent-assault-injury",
+   "sec": "sex",
+   "title": "강제추행치상, 작은 상처나 정신적 피해도 '상해'가 되나요",
+   "sum": "무기 또는 5년 이상, 상해 기준, 인과관계.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "statutory-rape",
+   "sec": "sex",
+   "title": "미성년자의제강간, 서로 좋아서 만났어도 처벌되나요",
+   "sum": "13세·16세 기준, 동의와 무관한 처벌, 2024년 합헌.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "digital-sex-crime-types",
+   "sec": "sex",
+   "title": "디지털 성범죄 유형 한눈에 보기, 촬영·유포·합성·협박",
+   "sum": "유형별 적용 법률, 위장수사 확대, 피해자·피의자 대응.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
    "slug": "police-summons",
    "sec": "crim",
    "title": "경찰에서 출석 요구 연락을 받았다면, 조사 전에 확인할 것들",
