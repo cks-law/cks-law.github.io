@@ -130,11 +130,11 @@ go.addEventListener("click",function(){
   var post=cats.map(function(c){return c.post}).filter(Boolean)[0];
   if(post){ var a=el("a",{"class":"post-link",href:BASE+"posts/"+post+".html"},"<small>먼저 읽어 보세요</small><span>"+esc(POSTS[post])+"</span>"); box.appendChild(a); }
   else { box.appendChild(el("p",{"class":"no-post"},"이 상황을 다룬 칼럼은 아직 없습니다. 내용을 남겨 주시면 비슷한 고민을 가진 분들을 위해 칼럼으로 정리하겠습니다.")); }
-  s1.hidden=true; s2.hidden=false; $("in-name").focus({preventScroll:true});
-  root.scrollIntoView({behavior:"smooth",block:"start"});
+  s1.hidden=true; s2.hidden=false;
+  var pnl=document.querySelector(".sheet-panel"); if(pnl) pnl.scrollTop=0;
 });
 
-$("in-back").addEventListener("click",function(){s2.hidden=true;s1.hidden=false;ta.focus()});
+$("in-back").addEventListener("click",function(){s2.hidden=true;s1.hidden=false;if(fine)ta.focus({preventScroll:true})});
 
 var agree=$("in-agree"), send=$("in-send");
 function canSend(){send.disabled=!agree.checked}
@@ -168,13 +168,19 @@ function finish(ok,data){
   }
 }
 
-/* open from anywhere: buttons with data-intake (optionally data-preset) */
-document.addEventListener("click",function(e){
-  var b=e.target.closest("[data-intake]"); if(!b) return;
-  e.preventDefault();
-  var p=b.getAttribute("data-preset");
+/* open from anywhere: buttons with data-intake (optionally data-preset). Opens as a fixed sheet; the page underneath never scrolls. */
+var sheet=$("sheet"), fine=window.matchMedia&&matchMedia("(pointer:fine)").matches;
+function openSheet(p){
   if(p){ s3.hidden=true; s2.hidden=true; s1.hidden=false; if(!ta.value.trim()) ta.value=p+" "; upd(); }
-  root.scrollIntoView({behavior:"smooth",block:"start"});
-  setTimeout(function(){ta.focus({preventScroll:true});ta.setSelectionRange(ta.value.length,ta.value.length)},450);
+  if(sheet){ sheet.hidden=false; document.body.classList.add("lock"); var pnl=sheet.querySelector(".sheet-panel"); if(pnl) pnl.scrollTop=0; }
+  if(fine){ ta.focus({preventScroll:true}); ta.setSelectionRange(ta.value.length,ta.value.length); }
+}
+function closeSheet(){ if(sheet){ sheet.hidden=true; document.body.classList.remove("lock"); } if(location.hash==="#intake") history.replaceState(null,"",location.pathname+location.search); }
+document.addEventListener("click",function(e){
+  if(e.target.closest("[data-close]")){ e.preventDefault(); closeSheet(); return; }
+  var b=e.target.closest("[data-intake]"); if(!b) return;
+  e.preventDefault(); openSheet(b.getAttribute("data-preset"));
 });
+document.addEventListener("keydown",function(e){ if(e.key==="Escape"&&sheet&&!sheet.hidden) closeSheet(); });
+if(location.hash==="#intake") openSheet();
 })();

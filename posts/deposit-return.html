@@ -14,16 +14,14 @@
 <link rel="stylesheet" href="../fonts.css">
 <link rel="stylesheet" href="../style.css">
 </head>
-<body>
-<header class="bar on">
+<body data-base="../">
+<header class="bar" id="bar">
   <div class="w">
     <a class="mark" href="../index.html">최경수<i>변호사</i></a>
-    <nav aria-label="주요 메뉴">
-      <a href="../index.html#situations">자주 겪는 사건</a>
-      <a href="../index.html#profile">변호사 소개</a>
-      <a href="../columns.html">칼럼</a>
-    </nav>
-    <a class="btn gold" href="../index.html#intake">간이 상담</a>
+    <nav class="topnav" aria-label="주요 메뉴"><a href="../area/criminal.html" data-ev="nav_area" data-label="형사">형사</a><a href="../area/civil.html" data-ev="nav_area" data-label="민사">민사</a><a href="../area/family.html" data-ev="nav_area" data-label="이혼·상속">이혼·상속</a><a href="../area/labor.html" data-ev="nav_area" data-label="노동">노동</a><a href="../area/admin.html" data-ev="nav_area" data-label="행정">행정</a><a href="../area/school.html" data-ev="nav_area" data-label="학교폭력">학교폭력</a><span class="sep"></span><a href="../columns.html">칼럼</a><a href="../index.html#profile">변호사 소개</a></nav>
+    <a class="btn green bar-tel" href="tel:0260110523" data-ev="phone_click" data-label="header">전화</a>
+    <button class="btn gold bar-cta" type="button" data-intake>간이 상담</button>
+    <button class="menu-btn" type="button" data-drawer aria-label="메뉴 열기" aria-controls="drawer"><span></span><span></span><span></span></button>
   </div>
 </header>
 <main class="art" style="--c:var(--green)">
@@ -63,14 +61,69 @@
   <div class="art-cta">
     <h3>이사 날짜가 다가오고 있다면</h3>
     <p>계약서와 등기부, 집주인과의 연락 내용을 바탕으로 지금 단계에서 해야 할 일을 정리해 드립니다. 간이 상담에 상황을 적어 주세요.</p>
-    <a class="btn gold lg" href="../index.html#intake">간이 상담에 상황 적기</a>
-    <a class="btn line lg" href="tel:0260110523">전화 상담 02-6011-0523</a>
+    <button class="btn gold lg" type="button" data-intake>간이 상담에 상황 적기</button>
+    <a class="btn green lg" href="tel:0260110523">전화 상담 02-6011-0523</a>
   </div>
   <p class="disclaimer">이 글은 일반적인 법률 정보를 제공하기 위한 것으로, 개별 사안에 대한 법률자문이 아닙니다. 법령과 실무는 바뀔 수 있고 사실관계에 따라 결론이 달라질 수 있습니다.</p>
   <a class="back" href="../columns.html">다른 칼럼 보기</a>
 </div>
 </main>
 <footer><div class="w"><div><b>최경수 변호사</b><br>전화 <a href="tel:0260110523">02-6011-0523</a></div><div>© 2026 최경수</div></div></footer>
-<div class="fab-row"><a class="btn line fab-tel" href="tel:0260110523">전화</a><a class="btn gold" href="../index.html#intake">간이 상담</a></div>
+<div class="fab-row"><a class="btn green fab-tel" href="tel:0260110523" data-ev="phone_click" data-label="fab">전화</a><button class="btn gold" type="button" data-intake>간이 상담</button></div>
+<div class="drawer" id="drawer" hidden>
+  <div class="drawer-bg" data-drawer-close></div>
+  <aside class="drawer-panel" aria-label="메뉴">
+    <div class="d-top"><a class="mark" href="../index.html">최경수<i>변호사</i></a><button class="sheet-x" type="button" data-drawer-close>닫기</button></div>
+    <div class="d-prof">
+      <b>최경수 변호사</b>
+      <span>법무법인 ENC</span>
+      <ul><li>법무법인 파트너 변호사 (2025–)</li><li>법무법인 YK 변호사 (2021–2025)</li><li>한양대학교 법학전문대학원</li></ul>
+      <a href="../index.html#profile" data-drawer-close-nav>변호사 소개 자세히 →</a>
+    </div>
+    <p class="d-h">분야별 사건</p>
+    <nav class="d-areas"><a href="../area/criminal.html" style="--c:var(--red)" data-ev="nav_area" data-label="형사"><i></i>형사</a><a href="../area/civil.html" style="--c:var(--green)" data-ev="nav_area" data-label="민사"><i></i>민사</a><a href="../area/family.html" style="--c:var(--green)" data-ev="nav_area" data-label="이혼·상속"><i></i>이혼·상속</a><a href="../area/labor.html" style="--c:var(--gold)" data-ev="nav_area" data-label="노동"><i></i>노동</a><a href="../area/admin.html" style="--c:var(--gold)" data-ev="nav_area" data-label="행정"><i></i>행정</a><a href="../area/school.html" style="--c:var(--red)" data-ev="nav_area" data-label="학교폭력"><i></i>학교폭력</a></nav>
+    <nav class="d-links"><a href="../columns.html">칼럼 전체 보기</a><a href="../index.html#profile" data-drawer-close-nav>변호사 소개</a></nav>
+    <div class="d-btns"><a class="btn green lg" href="tel:0260110523" data-ev="phone_click" data-label="drawer">전화 02-6011-0523</a><button class="btn gold lg" type="button" data-intake>간이 상담</button></div>
+  </aside>
+</div>
+<div class="sheet" id="sheet" hidden>
+  <div class="sheet-bg" data-close></div>
+  <div class="sheet-panel" role="dialog" aria-modal="true" aria-label="간이 상담">
+    <button class="sheet-x" type="button" data-close aria-label="닫기">닫기</button>
+    <div class="intake" id="intake" aria-live="polite">
+      <div class="step" id="in-s1">
+        <h2>간이 상담</h2>
+        <p class="hint">언제, 어디서, 무슨 일이 있었는지 편하게 적어 주세요. 실명이나 주민번호처럼 신원이 드러나는 정보는 적지 않으셔도 됩니다.</p>
+        <textarea id="in-text" aria-label="상황 설명" placeholder="예) 지난주 회식 자리에서 술에 많이 취했는데, 동료가 제가 신체를 만졌다며 고소하겠다고 합니다. 기억이 잘 나지 않아요."></textarea>
+        <div class="meta"><small id="in-count">0자</small><button class="btn gold" id="in-go" type="button">정리해 보기</button></div>
+      </div>
+
+      <div class="step" id="in-s2" hidden>
+        <div class="res-head">이렇게 정리됐어요<button type="button" id="in-back">다시 쓰기</button></div>
+        <div id="in-result"></div>
+        <div class="contact-f">
+          <h3>변호사에게 내용 남기기</h3>
+          <p>남겨주신 내용은 최경수 변호사가 직접 읽습니다. 연락처를 적어 주시면 상황에 따라 변호사가 연락드릴 수 있습니다. 연락처 없이 내용만 남기셔도 됩니다.</p>
+          <div class="fgrid">
+            <input id="in-name" placeholder="성함 또는 호칭 (선택)" autocomplete="name">
+            <input id="in-phone" placeholder="연락처 (선택)" inputmode="tel" autocomplete="tel">
+            <input id="in-time" placeholder="연락 받기 편한 시간 (선택)">
+          </div>
+          <label class="agree"><input type="checkbox" id="in-agree"><span>개인정보 수집·이용에 동의합니다. (필수)
+            <details><summary>자세히 보기</summary>수집 항목: 상황 설명, 성함, 연락처, 연락 가능 시간 / 목적: 상담 연락 및 법률 정보 콘텐츠 작성(개인을 알아볼 수 없도록 가공) / 보유 기간: 접수일로부터 1년, 요청 시 즉시 삭제 / 동의를 거부할 수 있으며, 이 경우 내용을 남길 수 없습니다.</details></span></label>
+          <div class="row2"><button class="btn gold lg" id="in-send" type="button">내용 남기기</button></div>
+        </div>
+      </div>
+
+      <div class="step" id="in-s3" hidden><div class="done" id="in-done"></div></div>
+    </div>
+  </div>
+  </div>
+</div>
+<script src="../intake.js"></script>
+<script src="../site.js"></script>
+<script>
+(function(){var b=document.getElementById('bar');if(!b)return;addEventListener('scroll',function(){b.classList.toggle('on',scrollY>8)},{passive:true});})();
+</script>
 </body>
 </html>
