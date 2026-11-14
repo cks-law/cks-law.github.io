@@ -336,3 +336,10 @@ body.lock{overflow:hidden}
 }
 @media (max-width:600px){ .sheet-panel .intake{padding:18px 20px 28px} .sheet-panel .intake h2{margin-right:80px} }
 .sheet-panel .res-head{padding-right:72px}
+/* faq */
+.faq{margin:64px 0 0;padding-top:36px;border-top:1px solid var(--line)}
+.faq h2{margin:0 0 18px}
+.faq .qa{padding:18px 0;border-bottom:1px solid var(--line)}
+.faq .qa h3{margin:0 0 8px;font-size:18px;font-weight:600;line-height:1.5;color:var(--t)}
+.faq .qa h3::before{content:"Q. ";color:var(--gold)}
+.faq .qa p{margin:0;color:var(--t2);font-size:16px;font-weight:300}
