@@ -232,3 +232,14 @@ dialog.sheet .wrap{position:relative}
 .hub-item:hover{border-color:var(--c,var(--gold))}
 .hub-item b{display:block;color:var(--t);font-weight:500;font-size:17px;line-height:1.45}
 .hub-item span{display:block;color:var(--dim);font-size:14.5px;margin-top:6px;line-height:1.5}
+
+/* phone */
+.art-cta .btn+.btn{margin-left:8px}
+.fab-row{display:none}
+@media (max-width:1000px){
+  .art-cta .btn+.btn{margin:10px 0 0}
+  .fab-row{display:flex;gap:8px;position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom));z-index:30}
+  .fab-row .btn{height:54px;box-shadow:0 10px 30px rgba(0,0,0,.6)}
+  .fab-row .fab-tel{flex:0 0 96px;background:var(--panel)}
+  .fab-row .btn.gold{flex:1}
+}
