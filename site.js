@@ -2,7 +2,7 @@
 (function(){
 /* ===== 방문 통계 (Google Analytics 4) =====
    GA_ID에 'G-'로 시작하는 측정 ID를 넣으면 수집이 시작됩니다. 비어 있으면 아무것도 보내지 않습니다. */
-var GA_ID = "";
+var GA_ID = "G-KPNL776MZ3";
 
 window.track = function(name, params){
   if(!GA_ID || typeof window.gtag !== "function") return;
