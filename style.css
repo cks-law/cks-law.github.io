@@ -335,3 +335,4 @@ body.lock{overflow:hidden}
   .menu-btn{display:flex;margin-left:auto}
 }
 @media (max-width:600px){ .sheet-panel .intake{padding:18px 20px 28px} .sheet-panel .intake h2{margin-right:80px} }
+.sheet-panel .res-head{padding-right:72px}
