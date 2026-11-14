@@ -21,7 +21,7 @@ def page(slug,title,desc,color,kind,date,body,cta_h,cta_p):
 <link rel="stylesheet" href="../style.css">
 </head>
 '''
-    nav=TPL[TPL.index('<body>'):head_end]
+    nav=TPL[TPL.index('<body'):head_end]
     main=f'''<main class="art" style="--c:var(--{color})">
 <div class="w narrow">
   <span class="k">{kind}</span>

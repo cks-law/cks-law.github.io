@@ -11,3 +11,8 @@
 순서: 칼럼 txt 작성 → `python3 _tools/make.py 파일.txt` → columns.json/faq.py/areas_data.py 갱신 → `python3 _tools/hub.py`
 
 원칙: 법정형·기한은 검색으로 확인된 것만. 사기죄는 2026.9.13 시행 개정(20년/5천만). 2026.10.2부터 검사 직접수사 폐지 → '검찰' 대신 '수사기관', '검사'.
+
+## 칼럼 100개 진행 상황
+- 1차 성범죄 15개 완료(2026-11-14): deepfake, filming-threat, csam-possession, online-grooming, workplace-power-assault, harassment-vs-assault, public-indecency, restroom-intrusion, prostitution, sex-offender-registry, employment-restriction, public-servant-sex-crime, sex-crime-settlement, sex-crime-first-offense, sex-crime-victim (원고: _tools/src/s1_*.txt)
+- 다음: 2차 형사 일반 25개 → 음주·교통 10 → 민사·부동산 15 → 이혼·상속 12 → 노동·행정 13 → 학교폭력 5 → 이슈 5
+- make.py는 템플릿의 `<body` 태그(속성 포함)를 찾도록 수정됨
