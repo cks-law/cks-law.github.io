@@ -296,6 +296,166 @@
    "date": "2026-11-14"
   },
   {
+   "slug": "dui-first-fine",
+   "sec": "traffic",
+   "title": "음주운전 초범 벌금, 무엇으로 정해지나요",
+   "sum": "수치별 법정형과 벌금 하한, 약식명령, 벌금을 좌우하는 사정.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "dui-repeat",
+   "sec": "traffic",
+   "title": "음주운전 2회·3회 적발, 처벌은 어떻게 달라지나요",
+   "sum": "10년 내 재범 가중, 결격 2·3년, 방지장치 조건부 면허.",
+   "min": 5,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "license-revocation-reacquire",
+   "sec": "traffic",
+   "title": "음주운전 면허취소, 언제 다시 딸 수 있나요",
+   "sum": "유형별 결격기간, 재취득 순서, 조건부 면허.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "dui-license-appeal",
+   "sec": "traffic",
+   "title": "음주운전 면허 구제, 이의신청과 행정심판 요건",
+   "sum": "생계형 감경 요건과 제외 사유, 110일 정지, 60일·90일.",
+   "min": 5,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "breath-test-refusal",
+   "sec": "traffic",
+   "title": "음주측정거부, 수치보다 무겁게 처벌되는 이유",
+   "sum": "법정형, 성립 요건, 채혈 요구, 술타기 금지.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "dui-accident",
+   "sec": "traffic",
+   "title": "음주운전 사고를 냈다면, 위험운전치사상과 교통사고처리법",
+   "sum": "위험운전치사상, 보험·합의와 처벌, 도주, 결격기간.",
+   "min": 5,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "dui-arrest",
+   "sec": "traffic",
+   "title": "음주운전으로 구속될 수 있나요, 실형이 나오는 기준",
+   "sum": "구속 판단 기준, 위험 요소, 집행유예 중 재범.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "dui-suspended-sentence",
+   "sec": "traffic",
+   "title": "음주운전 집행유예와 기소유예, 어떤 경우에 가능한가요",
+   "sum": "기소유예의 현실, 집행유예 요건, 신분상 불이익.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "dui-mitigation-materials",
+   "sec": "traffic",
+   "title": "음주운전 반성문·탄원서·양형자료, 무엇을 어떻게 준비하나요",
+   "sum": "반성문 요령, 재범 방지 자료, 탄원서, 경위 자료.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "dui-accomplice",
+   "sec": "traffic",
+   "title": "음주운전 차에 같이 탔다면, 동승자도 처벌되나요 (음주운전 방조)",
+   "sum": "방조 성립 요건, 차 열쇠·차량 제공, 다툴 수 있는 경우.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "public-servant-dui",
+   "sec": "traffic",
+   "title": "공무원 음주운전, 징계 기준과 당연퇴직 위험",
+   "sum": "징계기준표, 집행유예와 당연퇴직, 소청 대응.",
+   "min": 5,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "pm-bicycle-dui",
+   "sec": "traffic",
+   "title": "전동킥보드·자전거 음주운전, 어떻게 처벌되나요",
+   "sum": "범칙금, 자동차 면허 처분, 사고 시 처벌, 무면허 킥보드.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "unlicensed-driving",
+   "sec": "traffic",
+   "title": "무면허운전 처벌, 정지 중 운전도 무면허인가요",
+   "sum": "처벌, 취소 사실을 몰랐을 때, 결격기간, 무면허 사고.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "unlicensed-dui",
+   "sec": "traffic",
+   "title": "무면허 음주운전, 두 죄가 겹치면 어떻게 처벌되나요",
+   "sum": "상상적 경합, 가중 사정, 결격기간, 공무원 징계.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "hit-and-run-injury",
+   "sec": "traffic",
+   "title": "뺑소니(도주치상) 처벌, '도주'는 어떤 경우에 인정되나요",
+   "sum": "도주차량 법정형, 유기도주, 도주 인정 기준, 결격 4·5년.",
+   "min": 5,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "parked-car-hit-run",
+   "sec": "traffic",
+   "title": "주차된 차를 긁고 그냥 갔다면, 물피도주 처벌",
+   "sum": "20만 원 이하·범칙금, 주차장 적용, 무거워지는 경우.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "failure-to-take-measures",
+   "sec": "traffic",
+   "title": "사고후미조치, 사람이 안 다쳤는데도 처벌되나요",
+   "sum": "운전자의 조치 의무, 5년 이하 징역, 성립 기준.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "road-rage",
+   "sec": "traffic",
+   "title": "보복운전으로 신고됐다면, 특수협박과 면허 처분",
+   "sum": "특수협박·폭행·손괴·상해, 난폭운전, 벌점 100점.",
+   "min": 5,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "school-zone-accident",
+   "sec": "traffic",
+   "title": "어린이보호구역(스쿨존) 사고, 민식이법은 어떻게 적용되나요",
+   "sum": "적용 요건 3가지, 법정형, 합헌 결정, 사고 대응.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
+   "slug": "demerit-points",
+   "sec": "traffic",
+   "title": "운전면허 벌점, 몇 점이면 정지·취소되나요",
+   "sum": "40점 정지, 121·201·271점 취소, 소멸과 20점 감경.",
+   "min": 4,
+   "date": "2026-11-14"
+  },
+  {
    "slug": "online-defamation-discovery",
    "sec": "online",
    "title": "익명 계정의 명예훼손, 미국 디스커버리로 신원을 찾는 방법",
