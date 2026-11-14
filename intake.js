@@ -112,11 +112,12 @@ var root=$("intake"); if(!root) return;
 var ta=$("in-text"), go=$("in-go"), s1=$("in-s1"), s2=$("in-s2"), s3=$("in-s3"), cnt=$("in-count");
 var last={text:"",cats:[]};
 
-function upd(){var n=ta.value.trim().length;cnt.textContent=n+"자";go.disabled=n<10}
-ta.addEventListener("input",upd); upd();
+function upd(){var n=ta.value.trim().length;cnt.textContent=n+"자";cnt.style.color="";go.disabled=false}
+["input","keyup","change","compositionend","paste"].forEach(function(ev){ta.addEventListener(ev,function(){setTimeout(upd,0)})}); upd();
 
 go.addEventListener("click",function(){
-  var text=ta.value.trim(); var cats=classify(text); last={text:text,cats:cats};
+  var text=ta.value.trim();
+  if(text.length<5){ cnt.textContent="상황을 조금 더 적어 주세요"; cnt.style.color="var(--gold-2)"; if(fine) ta.focus({preventScroll:true}); return; } var cats=classify(text); last={text:text,cats:cats};
   var box=$("in-result"); box.innerHTML="";
   var chips=el("div",{"class":"cat-out"});
   if(cats.length){ cats.forEach(function(c){var ch=el("span",{"class":"chip"},esc(c.t));ch.style.setProperty("--c",G[c.g].c);chips.appendChild(ch)}); }
