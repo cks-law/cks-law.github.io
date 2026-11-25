@@ -23,8 +23,8 @@ html=f'''<!DOCTYPE html>
 <meta name="description" content="성범죄, 형사, 음주운전, 온라인 명예훼손, 민사·부동산, 이혼·상속, 노동, 행정, 학교폭력까지 분야별로 정리한 최경수 변호사의 법률 칼럼 모음.">
 <meta property="og:title" content="칼럼 전체 보기 | 최경수 변호사">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://cks-law.github.io/columns.html">
-<link rel="canonical" href="https://cks-law.github.io/columns.html">
+<meta property="og:url" content="https://cks-law.co.kr/columns.html">
+<link rel="canonical" href="https://cks-law.co.kr/columns.html">
 <meta name="theme-color" content="#0C0C0D">
 <link rel="stylesheet" href="fonts.css">
 <link rel="stylesheet" href="style.css">
@@ -56,7 +56,7 @@ ix=re.sub(r'    <p class="more">.*?</p>\n','',ix)
 ix=ix.replace(cards+'    </div>\n', cards+'    </div>\n'+more,1)
 open('/home/claude/cks-law.github.io/_tools/index_orig.html','w',encoding='utf-8').write(ix)
 # sitemap
-urls=[('https://cks-law.github.io/','2026-11-14'),('https://cks-law.github.io/columns.html','2026-11-14')]+[(f'https://cks-law.github.io/area/{x}.html','2026-11-14') for x in ['criminal','civil','family','labor','admin','school']]+[(f'https://cks-law.github.io/posts/{c["slug"]}.html',c['date']) for c in d['columns']]
+urls=[('https://cks-law.co.kr/','2026-11-14'),('https://cks-law.co.kr/columns.html','2026-11-14')]+[(f'https://cks-law.co.kr/area/{x}.html','2026-11-14') for x in ['criminal','civil','family','labor','admin','school']]+[(f'https://cks-law.co.kr/posts/{c["slug"]}.html',c['date']) for c in d['columns']]
 sm='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'  <url><loc>{u}</loc><lastmod>{t}</lastmod></url>\n' for u,t in urls)+'</urlset>\n'
 open(R+'sitemap.xml','w').write(sm)
 # post "back" links -> columns.html

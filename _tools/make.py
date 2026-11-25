@@ -3,7 +3,7 @@ TPL=open('/home/claude/cks-law.github.io/posts/police-summons.html',encoding='ut
 head_end=TPL.index('<main')
 foot_start=TPL.index('</main>')
 def page(slug,title,desc,color,kind,date,body,cta_h,cta_p):
-    u=f"https://cks-law.github.io/posts/{slug}.html"
+    u=f"https://cks-law.co.kr/posts/{slug}.html"
     head=f'''<!DOCTYPE html>
 <html lang="ko">
 <head>

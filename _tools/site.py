@@ -109,7 +109,7 @@ for a in AREAS:
         else: gh+=f'<div class="grp" style="--c:var(--{color})"><div class="cases one">{cs}</div></div>\n'
     ch=''.join(f'<a class="hub-item" href="../posts/{c["slug"]}.html"><b>{c["title"]}</b><span>{c["sum"]}</span></a>' for c in area_cols(a))
     others=''.join(f'<a href="{x[0]}.html"{" aria-current=\"page\"" if x[0]==aid else ""}>{x[1]}</a>' for x in AREAS)
-    url=f'https://cks-law.github.io/area/{aid}.html'
+    url=f'https://cks-law.co.kr/area/{aid}.html'
     titles=', '.join(re.sub('<.*?>','',(NEW[i.split(':')[1]][0] if ':' in i else i)) for g in groups for i in g[1])
     page=f'''<!DOCTYPE html>
 <html lang="ko">
