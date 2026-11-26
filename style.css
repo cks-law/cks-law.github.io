@@ -70,6 +70,11 @@ p{margin:0}
 .road h3{font-size:20px;margin-bottom:8px}
 .road .r-main p{font-size:15.5px;color:var(--ink2)}
 .r-help{list-style:none;margin:0;padding:18px 22px;background:#fff;border:1px solid var(--line);border-radius:4px;font-size:15px;color:var(--ink2)}
+.road>li.urgent{background:#fff;margin:0 -24px;padding:30px 24px;border-left:3px solid #B3392B}
+.road>li.urgent .n{color:#B3392B}
+.tag{display:inline-block;vertical-align:middle;margin-left:8px;font-size:13px;font-weight:800;color:#fff;background:#B3392B;border-radius:4px;padding:2px 8px;letter-spacing:0}
+.road .r-main b{color:#B3392B}
+.urgent .r-help{background:#FBF4F2;border-color:#F0D9D4}
 .r-help::before{content:"변호사 조력";display:block;font-size:13px;font-weight:800;color:var(--navy);margin-bottom:8px}
 .r-help li{position:relative;padding-left:14px;margin:4px 0}
 .r-help li::before{content:"";position:absolute;left:0;top:.75em;width:5px;height:5px;border-radius:50%;background:var(--accent)}
@@ -128,6 +133,7 @@ p{margin:0}
   .cases{grid-template-columns:1fr}
   .cases li,.cases li:nth-child(even){padding:22px 0;border-left:0}
   .road>li{grid-template-columns:1fr;gap:10px}
+  .road>li.urgent{margin:0 -20px;padding:26px 20px}
   .r-help{grid-column:auto}
   .cv div{grid-template-columns:80px 1fr}
   .form{padding:24px 20px}
